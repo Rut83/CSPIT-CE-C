@@ -6,7 +6,7 @@ int main(){
 
     printf("Size of Int : %zu",sizeof(int));
     printf("\nSize of Char : %zu",sizeof(char));
-    printf("Size of float : %zu",sizeof(float));
+    printf("\nSize of float : %zu",sizeof(float));
     printf("\nSize of long : %zu",sizeof(long));
     printf("\nSize of double : %zu",sizeof(double));
     printf("\nMaximum Value of Long : %lu",LONG_MAX);
@@ -19,7 +19,10 @@ int main(){
     printf("\nMinimum Value of Float : %e",FLT_MIN);
     printf("\nMaximum Value of Float : %Le",LDBL_MAX);
     printf("\nMinimum Value of Float : %Le",LDBL_MIN);
-
+    printf("\nMaximum of Unsigned Int : %u",UINT_MAX);
+    printf("\nMaximum Value of Unsigned Long : %lu",ULONG_MAX);
+    printf("\nMaximum Value of Unsigned Long Long : %llu",ULLONG_MAX);
+    printf("\nMaximum Value of Unsigned Char : %u",UCHAR_MAX);
 
     return 0;
 }
